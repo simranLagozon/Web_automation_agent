@@ -63,7 +63,7 @@ To run this project, make sure you have the following:
    - **Purpose**: Langchain allows you to chain together LLMs (Large Language Models) and various tools. In this case, it connects to the OpenAI API to generate responses for the given tasks.
    - **Why it's used**: It simplifies communication with the OpenAI API, allowing you to interact with the model without handling complex API requests manually.
 
-   ```python
+   
    from langchain_openai import ChatOpenAI
 
 
@@ -71,7 +71,7 @@ To run this project, make sure you have the following:
    -**Purpose**: This library abstracts the automation of browser tasks, such as searching the web, clicking buttons, and interacting with web pages. It integrates with Playwright to provide a simpler interface for browser automation.
    -**Why it's used**: It helps automate web browsing actions with minimal code and offers features like privacy controls, preventing login pop-ups, and controlling browser sessions.
 
-    ```python
+    
     from browser_use import Agent
 
 ### 3.**playwright** :
