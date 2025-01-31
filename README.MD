@@ -71,7 +71,7 @@ To run this project, make sure you have the following:
    -**Purpose**: This library abstracts the automation of browser tasks, such as searching the web, clicking buttons, and interacting with web pages. It integrates with Playwright to provide a simpler interface for browser automation.
    -**Why it's used**: It helps automate web browsing actions with minimal code and offers features like privacy controls, preventing login pop-ups, and controlling browser sessions.
 
-    python
+    ```python
     from browser_use import Agent
 
 ### 3.**playwright** :
